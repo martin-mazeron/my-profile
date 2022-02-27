@@ -1,0 +1,98 @@
+/*Colors and fonts*/
+
+
+body {
+	background-color: #74959A;
+	color: #98B4AA ;
+	font-family: Yantramanav ;
+	font-size: 20px ;
+ 
+}
+
+h1, h2, h3 {
+	font-family: Courier ;
+	font-weight: bolder;
+
+}
+
+h1{ 
+	color: #F1E0AC ;
+	letter-spacing: 5px ;
+	font-size: 40px ;
+
+ }
+
+ h2{ 
+	color: #98B4AA; 
+	font-weight: 100 ;
+	letter-spacing: 10px ;
+	font-size: 24px ;
+ }
+
+ a{
+ 	text-decoration: none ;
+ 	color: black
+ }
+ a:hover{
+	color: white 	
+ }
+
+div{	
+	background-color: #495371 ;
+	margin : 20px auto ;
+	border: 2px solid black;
+	border-radius: 5px ;
+	box-shadow: 3px 3px 10px black ;
+	width: 80% ;
+	padding: 30px	
+
+}
+
+#img-tete-circle{
+	border-radius: 50% ;
+	display: block ;
+	box-shadow: 3px 3px 10px black ;
+}
+
+#media-taille{
+	
+}
+
+#title{
+	background-color: #495371 ;
+	margin : 60px 300px ;
+	border-radius: 10px ;
+	box-shadow: 3px 3px 10px black ;
+	padding: 40px	
+
+}
+
+.btn-grey{
+	background-color: #98B4AA ;
+	color: black ;
+	padding: 15px 20px ;
+	border-radius: 10px; ;
+	margin: 50px 0 ;
+}
+.btn-line {
+	display: inline;
+	padding: 20px ;
+	}
+.btn-line i {
+	font-size: 50px ;
+}
+
+#container{
+	margin : 20px auto ;
+	width: 1500	px
+}
+
+@media (max-width: 760px) {
+	#container{
+		width: 600px ;
+}
+
+@media (max-width: 500px) {
+	#container{
+		width: 400px ;
+}
